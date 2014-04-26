@@ -10,6 +10,13 @@ var exec = require('child_process').exec;
 
 // Get input file
 var args = process.argv.slice(2);
+if (!args[0] || !args[1]) {
+	console.log('Usage: gifnuke input.gif output');
+	console.log('Output format is WebM.');
+	console.log('If the video looks wrong, you may need to use the --coalesce argument.');
+	console.log('--coalesce requires that Imagemagick be installed.');
+	process.exit(1);
+}
 if (/^(f|ht)tps?:\/\//i.test(args[0])) {
 	downloadFile(args[0]);
 } else {
