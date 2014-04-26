@@ -1,0 +1,12 @@
+{
+  "name": "nukeGIF",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "bin": {
+    "gifnuke": "gifnuke.js"
+  },
+  "dependencies": {
+    "request": "~2.34.0",
+    "fluent-ffmpeg": "~1.7.1"
+  }
+}
