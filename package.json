@@ -1,9 +1,13 @@
 {
-  "name": "nukeGIF",
+  "name": "GIFnuke",
   "version": "1.0.0",
   "preferGlobal": true,
   "bin": {
     "gifnuke": "gifnuke.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/redwallhp/gifnuke"
   },
   "dependencies": {
     "request": "~2.34.0",
