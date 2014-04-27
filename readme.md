@@ -1,3 +1,9 @@
+It's high time a certain antiquated image format was nuked from orbit. This command helps you convert animations to faster-loading WebM files. Modern video formats not only produce much smaller files, which are easily loopable with an HTML `<video>` element, but they load progressively without the "slow mo" effect.
+
+    1.7M dealwithit.gif
+    94K  dealwithit.webm
+
+
 # Installation
 
 Note: Before installing GIFnuke, you must have ffmpeg installed and compiled with the `--enable-libvpx` option, in order to enable WebM encoding.
