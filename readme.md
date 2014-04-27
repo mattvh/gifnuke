@@ -28,3 +28,8 @@ If you're converting a fancy GIF using that transparent partial-frame voodoo to 
  
     # Convert an image with frame coalescing
     gifnuke badformat/myimage.gif myimage --coalesce
+
+
+# License
+
+The contents of this repository are licensed under the [GNU Public License.](http://www.gnu.org/licenses/gpl-3.0.html)
