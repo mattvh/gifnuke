@@ -1,7 +1,10 @@
-It's high time a certain antiquated image format was nuked from orbit. This command helps you convert animations to faster-loading WebM files. Modern video formats not only produce much smaller files, which are easily loopable with an HTML `<video>` element, but they load progressively without the "slow mo" effect.
+It's high time a certain antiquated image format was nuked from orbit. This command helps you convert animations to faster-loading WebM files. Modern video formats not only produce much smaller files, which are easily loopable with an HTML `<video>` element, but they also load progressively without the "slow mo" effect.
+
+Want to see it in action? http://redwallhp.github.io/gifnuke/
 
     1.7M dealwithit.gif
     94K  dealwithit.webm
+    141K dealwithit.mp4
 
 
 # Installation
