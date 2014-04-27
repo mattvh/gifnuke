@@ -20,7 +20,7 @@ if (!args[0] || !args[1]) {
 if (/^(f|ht)tps?:\/\//i.test(args[0])) {
 	downloadFile(args[0]);
 } else {
-	var inputFile = path.resolve(__dirname, args[0]);
+	var inputFile = path.resolve(process.cwd(), args[0]);
 	convertFile(inputFile, args[1], args[2], function() {
 		console.log("Conversion complete");
 	});
